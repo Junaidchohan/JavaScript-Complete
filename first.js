@@ -1,3 +1,7 @@
-let juniad = chohan;
+const Product = {
+    name: "junaid",
+    rating: 4,
+    offer:5,
+    price:120
 
-console.log(juniad);
+}
