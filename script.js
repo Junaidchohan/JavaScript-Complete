@@ -1,13 +1,6 @@
-//If else Statments
+// Ternary Oprator
 
-let age = 71;
+let age = 25;
 
-if (age<25){
-    console.log("Junior");
-}else if(age>60){
-    console.log("Senior");
+age < 20 ? console.log( "Not Adults!") : console.log( "Adults!");
 
-}else{
-    console.log("Middle");
-
-}
