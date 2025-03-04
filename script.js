@@ -1,10 +1,13 @@
 //If else Statments
 
-let age = 2;
+let age = 71;
 
-if (age>18){
-    console.log("You can vote!");
+if (age<25){
+    console.log("Junior");
+}else if(age>60){
+    console.log("Senior");
+
 }else{
-    console.log("You can't vote!");
+    console.log("Middle");
 
 }
