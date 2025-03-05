@@ -2,14 +2,17 @@
 
 
 //Practice Questions
-// Practice Qs2
-let gameNum = "25";
-let userNum = prompt("Guess the game number : ");
+const readline = require("readline").createInterface({
+    input: process.stdin,
+    output: process.stdout
+});
 
-while (userNum != gameNum) {
-    userNum = prompt("You entered wrong number. Guess again : ");
-}
+readline.question("Enter your full name: ", (fullName) => {
+    let processedName = fullName.replace(/\s+/g, "");
+    let username = "@" + processedName + processedName.length;
+    console.log("Your generated username is: " + username);
+    readline.close();
+});
 
-console.log("congratulations, you entered the right number");
 
 
