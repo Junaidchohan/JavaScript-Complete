@@ -1,18 +1,14 @@
 
-// For of Loop
-
-// let str = "Junaid Chohan";
-
-// for(let i of str){
-//     console.log("i=",i)
-// }
+// For In Loop its use for Objects and Arrays and print key but dont for Strings,
 
 
-let str = "Junaid Chohan";
-let sizeOfString = 0;
-for(let i of str){
-    console.log("i=",i)
-    sizeOfString++;
+
+Student ={
+    name : "Junaid",
+    age   :25,
+    cgpa : 3.5,
 }
 
-console.log("The size of String =", sizeOfString);
+for (let key in Student){
+    console.log("Key =", key, "Value =", Student[key]);
+}
