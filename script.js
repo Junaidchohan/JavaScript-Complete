@@ -2,12 +2,14 @@
 
 
 //Practice Questions
-//Print all even number form 0 to 100
+// Practice Qs2
+let gameNum = "25";
+let userNum = prompt("Guess the game number : ");
 
-for(let num = 0; num<=100; num++){
-    if(num%2 ===0){
-        console.log("Print the Numbers =", num);
-
-    }
+while (userNum != gameNum) {
+    userNum = prompt("You entered wrong number. Guess again : ");
 }
+
+console.log("congratulations, you entered the right number");
+
 
