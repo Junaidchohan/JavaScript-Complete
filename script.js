@@ -1,15 +1,12 @@
 
+// let i = 20;
 
-// let i = 0;
+// do{
+//     console.log("Junaid chohan");
+// }while(i<=10);
 
-// for (let i = 1; i<=5; i++){
-//     console.log("The value of count;" ,i)
-// }
-
-
-let i = 1;
-
-while(i <=5){
-    console.log("The value of count;" ,i);
-    i++;
-}
+// let i = 1;
+// do{
+//     // console.log("Junaid chohan");
+//     i++;
+// }while(i<=5)
