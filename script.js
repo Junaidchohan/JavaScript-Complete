@@ -1,12 +1,18 @@
 
-// let i = 20;
+// For of Loop
 
-// do{
-//     console.log("Junaid chohan");
-// }while(i<=10);
+// let str = "Junaid Chohan";
 
-// let i = 1;
-// do{
-//     // console.log("Junaid chohan");
-//     i++;
-// }while(i<=5)
+// for(let i of str){
+//     console.log("i=",i)
+// }
+
+
+let str = "Junaid Chohan";
+let sizeOfString = 0;
+for(let i of str){
+    console.log("i=",i)
+    sizeOfString++;
+}
+
+console.log("The size of String =", sizeOfString);
