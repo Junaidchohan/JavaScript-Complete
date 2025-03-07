@@ -1,18 +1,11 @@
 
 
 
-//Practice Questions
-const readline = require("readline").createInterface({
-    input: process.stdin,
-    output: process.stdout
-});
+//Arrays
 
-readline.question("Enter your full name: ", (fullName) => {
-    let processedName = fullName.replace(/\s+/g, "");
-    let username = "@" + processedName + processedName.length;
-    console.log("Your generated username is: " + username);
-    readline.close();
-});
+let Arrays = [12,21,23,34,45,56,43,35];
+console.log(Arrays);
+
 
 
 
