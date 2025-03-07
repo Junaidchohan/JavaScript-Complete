@@ -1,17 +1,14 @@
 
 
-//Looping over an Arrays
+//Practice Question
 let marks = [12,21,23,34,45,56,43,35];
 
+let sum = 0;
 
-// for(let i = 0; marks < marks.length; i++ ){
-//     console.log(marks[i]);
-// }
-
-
-
-//For of loop in arrays
-
-for(let mark of marks){
-    console.log(mark);
+for(let val of marks){
+   sum += val;
 }
+
+
+let avg = sum/marks.length;
+console.log(`The avg of students maks ${avg}`);
