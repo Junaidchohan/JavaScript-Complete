@@ -1,14 +1,10 @@
 
 
 //Practice Question
-let marks = [12,21,23,34,45,56,43,35];
+let company = ["Bloomberg","Microsoft", "Uber", "Google","IBM", "Netflex"]
 
-let sum = 0;
-
-for(let val of marks){
-   sum += val;
-}
-
-
-let avg = sum/marks.length;
-console.log(`The avg of students maks ${avg}`);
+// company.shift();
+// console.log(company);
+// company.splice(2,1,"Ola")
+company.push("Amazone");
+console.log(company);
