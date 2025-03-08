@@ -1,8 +1,8 @@
 //Functions and Methods
 
-function myFunction(msg){
-    console.log(msg)
+function myFunction(x, y){ //Perameter
+    console.log(x + y)
 
 }
 
-myFunction("I love Javascript");
+myFunction(2 ,2); //Arguments
