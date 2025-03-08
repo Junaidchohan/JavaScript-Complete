@@ -1,9 +1,8 @@
 //Functions and Methods
 
-function myFunction(){
-    console.log("I am Flutter app and Web developer"),
-    console.log("I am Flutter app and Web developer"),
-    console.log("I am Flutter app and Web developer")
+function myFunction(msg){
+    console.log(msg)
+
 }
 
-myFunction();
+myFunction("I love Javascript");
