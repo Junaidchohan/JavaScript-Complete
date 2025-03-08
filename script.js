@@ -1,10 +1,11 @@
-//Functions and Methods
+//CallBackFunctios
 
-function sum(x, y){ //Perameter
-s = x+y;
-return s;
+
+
+function abc(){
+    console.log("hello");
 }
 
-let val = sum(2 ,2); //Arguments
-
-console.log(val);
+function myfunction(abc){ //its a callBackFunction one function pass in anothere function as a Arguments like abc function pass in myFunction
+console.log(abc);
+}
