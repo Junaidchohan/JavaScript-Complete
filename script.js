@@ -1,14 +1,8 @@
-//Practice Question
-//print the  squre value for each number using forEach method
+//Array filter Methode
 let num = [1,2,3,4,5,6];
 
-
-// num.map((num)=>{
-//     console.log(num*num);
-// })
-
- let newArray = num.map((num)=>{
-    return num*num;
+ let evenArray = num.filter((num)=>{
+    return num%2==0;
 })
 
-console.log(newArray);
+console.log(evenArray);
