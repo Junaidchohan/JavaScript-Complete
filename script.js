@@ -1,11 +1,7 @@
-//CallBackFunctios
+//Practice Question
 
+let num = [1,2,3,4,5,6];
 
-
-function abc(){
-    console.log("hello");
-}
-
-function myfunction(abc){ //its a callBackFunction one function pass in anothere function as a Arguments like abc function pass in myFunction
-console.log(abc);
-}
+num.forEach((num)=>{
+    console.log(num*num);
+})
