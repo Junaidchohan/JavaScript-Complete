@@ -1,8 +1,10 @@
 //Functions and Methods
 
-function myFunction(x, y){ //Perameter
-    console.log(x + y)
-
+function sum(x, y){ //Perameter
+s = x+y;
+return s;
 }
 
-myFunction(2 ,2); //Arguments
+let val = sum(2 ,2); //Arguments
+
+console.log(val);
