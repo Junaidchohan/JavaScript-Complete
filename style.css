@@ -1,0 +1,21 @@
+.heading-class {
+    color: red;
+
+}
+
+h6 {
+    color: blueviolet;
+}
+
+h4{
+    color: brown;
+}
+
+body{
+    background-color: white;
+}
+
+button{
+    color: blue;
+    text-emphasis-color: var(background-color);
+}
