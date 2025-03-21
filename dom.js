@@ -6,3 +6,6 @@ console.log(id);
 
 let name = div.getAttribute("JSdiv");
 console.log(name);
+
+let nam = div.getAttribute("JSdiv");
+console.log(name);
